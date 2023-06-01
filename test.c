@@ -4,6 +4,6 @@
 #include "hello.h"
 
 void main(void){
-    printf("PI *2 = %d\n",PI*2);
+    printf("PI *2 = %f\n",PI*2);
     hello();
 }
