@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "test.h"
+#include "hello.h"
+
 void main(void){
-    printf("2 PI = %.2f\n",PI*2);
+    printf("PI *2 = %d\n",PI*2);
+    hello();
+
 }
